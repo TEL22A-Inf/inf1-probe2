@@ -17,15 +17,7 @@ type Person struct {
 // CommonFriends erwartet zwei Personen und liefert eine Liste
 // mit allen Personen, die mit beiden befreundet sind.
 func CommonFriends(p1, p2 Person) []Person {
-	// BEGIN-SOLUTION
 	result := []Person{}
-	for _, f1 := range p1.Friends {
-		for _, f2 := range p2.Friends {
-			if f1.Name == f2.Name {
-				result = append(result, f1)
-			}
-		}
-	}
+	// TODO
 	return result
-	// END-SOLUTION
 }

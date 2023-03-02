@@ -13,18 +13,6 @@ BEWERTUNG:
 // soll die leere Liste geliefert werden.
 func GetStringsBetween(list []string, first, last string) []string {
 	result := []string{}
-	firstfound := false
-	// BEGIN-SOLUTION
-	for _, s := range list {
-		if s == first {
-			firstfound = true
-		} else if firstfound && s != last {
-			result = append(result, s)
-		}
-		if s == last {
-			return result
-		}
-	}
-	// END-SOLUTION
+	// TODO
 	return result
 }
